@@ -17,29 +17,12 @@
         <script src="js/jquery.min.js"></script>
     </head>
     <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
 
-        <!-- Add your site or application content here -->
+      <div id="circle"></div>
 
-        <!--test for jquery-->
+      <div class="square"></div>
 
-        <script type="text/javascript">
-
-          if (typeof jQuery == "undefined") {
-
-            alert("jQuery is not installed!")
-
-          }
-
-          else {
-
-            alert("jQuery is installed correctly!")
-
-          }
-
-        </script>
+      <div class="square"></div>
 
 
 
@@ -50,6 +33,19 @@
 
 
 
+
+
+      <script type="text/javascript">
+
+      $("#circle").click(function() {
+
+        alert("circle was clicked");
+
+      });
+
+
+
+      </script>
 
 
 
