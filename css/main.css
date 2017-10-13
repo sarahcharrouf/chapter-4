@@ -103,6 +103,7 @@ textarea {
      font-family: helvetica, sans-serif;
      font-weight: bold;
      font-size: 24px;
+     display: none;
    }
 
    button {

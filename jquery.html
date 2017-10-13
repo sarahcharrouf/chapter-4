@@ -18,9 +18,9 @@
     </head>
     <body>
 
-      <p>If the button is clicked, it's going to fade out, then you're going to get an alert</p>
+      <p>If the button is clicked, some text will appear</p>
 
-      <button>Make the text disappear</button>
+      <button>Make the text appear</button>
 
 
 
@@ -35,9 +35,7 @@
 
       $("button").click(function() {
 
-        $("p").fadeOut("slow", function () {
-          alert("The text has faded out.");
-        });
+        $("p").fadeIn();
 
       });
 
