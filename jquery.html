@@ -18,11 +18,12 @@
     </head>
     <body>
 
-      <p>If this text is clicked, it's going to fade out, then you're going to get an alert</p>
+      <p>If the button is clicked, it's going to fade out, then you're going to get an alert</p>
 
-      <p>If this text is clicked, the same thing is going to happen, but they won't both disappear at the same time!</p>
+      <button>Make the text disappear</button>
 
-      
+
+
 
 
 
@@ -32,9 +33,9 @@
 
       <script type="text/javascript">
 
-      $("p").click(function() {
+      $("button").click(function() {
 
-        $(this).fadeOut("slow", function () {
+        $("p").fadeOut("slow", function () {
           alert("The text has faded out.");
         });
 
