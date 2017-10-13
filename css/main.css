@@ -103,20 +103,21 @@ textarea {
      height: 200px;
      background-color: darkcyan;
      border-radius: 50%;
-     margin: 100px;
-
-
+     margin: 50px;
    }
 
-   #square_container {
-     display: inline-block;
+   p {
+     margin: 50px;
+     font-family: helvetica, sans-serif;
+     font-weight: bold;
+     font-size: 24px;
    }
 
    .square {
      width: 200px;
      height: 200px;
      background-color: thistle;
-     margin: 100px;
+     margin: 50px;
 
    }
 
