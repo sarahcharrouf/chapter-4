@@ -97,14 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   #circle {
-
-     width: 200px;
-     height: 200px;
-     background-color: darkcyan;
-     border-radius: 50%;
-     margin: 50px;
-   }
 
    p {
      margin: 50px;
@@ -113,14 +105,7 @@ textarea {
      font-size: 24px;
    }
 
-   .square {
-     width: 200px;
-     height: 200px;
-     background-color: thistle;
-     margin: 50px;
-
-   }
-
+   
 
 
 
