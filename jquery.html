@@ -20,7 +20,7 @@
 
       <p>If the button is clicked, some text will appear</p>
 
-      <button>Make the text appear</button>
+      <button id="toggle">Make the text toggle.</button>
 
 
 
@@ -33,9 +33,14 @@
 
       <script type="text/javascript">
 
-      $("button").click(function() {
+      $("#toggle").click(function() {
 
-        $("p").fadeIn();
+        if ($("p").css("display") == "none") {
+          $("p").fadeIn();
+        }
+        else {
+          $("p").fadeOut();
+        }
 
       });
 
