@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>AJAX</title>
+        <title>Regular Expressions</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,24 +18,13 @@
     </head>
     <body>
 
-      <p></p>
-
-
-
-
 
 
       <script type="text/javascript">
 
-        $.ajax("chapter-3/javascript.html")
-        .done(function(data) {
-          $("p").html(data);
-        }).fail(function() {
+        var regex = /is/
 
-          alert("Could not get data");
-
-        });
-
+        //this tells javascrip that this is a regex that we can use to match against some other string
 
 
       </script>
