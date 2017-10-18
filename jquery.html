@@ -25,10 +25,8 @@
 
       <script type="text/javascript">
 
-        $.get("chapter-3/javascript.html", function(data){
-
+        $.ajax("chapter-3/javascript.html").done(function(data) {
           alert(data);
-
         });
 
 
