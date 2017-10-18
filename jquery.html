@@ -18,6 +18,8 @@
     </head>
     <body>
 
+      <p></p>
+
 
 
 
@@ -25,8 +27,9 @@
 
       <script type="text/javascript">
 
-        $.ajax("chapter-3/javascript.html").done(function(data) {
-          alert(data);
+        $.ajax("chapter-3/javascript.html")
+        .done(function(data) {
+          $("p").html(data);
         }).fail(function() {
 
           alert("Could not get data");
