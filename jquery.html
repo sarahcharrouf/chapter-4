@@ -18,9 +18,9 @@
     </head>
     <body>
 
-      <p>If the button is clicked, some text will appear</p>
+      <div id="circle"></div>
 
-      <button id="toggle">Make the text toggle.</button>
+
 
 
 
@@ -33,16 +33,20 @@
 
       <script type="text/javascript">
 
-      $("#toggle").click(function() {
+      $("#circle").click(function () {
 
-        if ($("p").css("display") == "none") {
-          $("p").fadeIn();
-        }
-        else {
-          $("p").fadeOut();
-        }
+        $(this).animate({
+          width:"400px",
+          height:"400px",
+          marginLeft:"100px",
+          marginTop:"100px"
+
+        }, 2000);
 
       });
+
+
+
 
 
 
