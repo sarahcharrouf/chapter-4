@@ -97,7 +97,42 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   
+   body {
+     font-family: helvetica, sans-serif;
+     font-size: 20px;
+   }
+
+   input {
+     width: 320px;
+     padding: 5px 5px 12px 12px;
+     font-size: 20px;
+     border-radius: 5px;
+     border: 1px solid darkslategray;
+   }
+
+   label {
+     position: relative;
+     top: 12px;
+     width: 200px;
+     float: left;
+   }
+
+   #wrapper {
+     width: 600px;
+     margin: 0 auto;
+   }
+
+   .form-element {
+     margin-top: 10px;
+     margin-bottom: 10px;
+   }
+
+   #submitButton {
+     width: 150px;
+     margin-left: 200px;
+     background-color: #68aa99;
+     padding: 12px;
+   }
 
 
 
