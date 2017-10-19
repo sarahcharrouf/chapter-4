@@ -102,48 +102,11 @@ textarea {
      font-size: 20px;
    }
 
-   input {
-     width: 320px;
-     padding: 5px 5px 12px 12px;
-     font-size: 20px;
-     border-radius: 5px;
+   /*#draggable {
      border: 1px solid darkslategray;
-   }
-
-   label {
-     position: relative;
-     top: 12px;
+     height: 200px;
      width: 200px;
-     float: left;
-   }
-
-   #wrapper {
-     width: 600px;
-     margin: 0 auto;
-   }
-
-   .form-element {
-     margin-top: 10px;
-     margin-bottom: 10px;
-   }
-
-   #submitButton {
-     width: 150px;
-     margin-left: 200px;
-     background-color: #68aa99;
-     padding: 12px;
-   }
-
-   #errorMessage {
-     font-size: 18px;
-     color: red;
-   }
-
-   #successMessage {
-     display: none;
-     color: blue;
-     font-size: 18px;
-   }
+   }*/
 
 
 
