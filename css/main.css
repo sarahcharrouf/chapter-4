@@ -134,6 +134,17 @@ textarea {
      padding: 12px;
    }
 
+   #errorMessage {
+     font-size: 18px;
+     color: red;
+   }
+
+   #successMessage {
+     display: none;
+     color: blue;
+     font-size: 18px;
+   }
+
 
 
 

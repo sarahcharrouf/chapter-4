@@ -56,7 +56,7 @@
         </div>
 
         <div id="errorMessage"></div>
-
+        <div id="successMessage">You did it! Good job, you're not a total dunce.</div>
       </div>
 
 
@@ -111,6 +111,11 @@
 
           if (errorMessage != "") {
             $("#errorMessage").html(errorMessage);
+          }
+
+          else {
+            $("#successMessage").show();
+            $("#errorMessage").hide();
           }
 
 
