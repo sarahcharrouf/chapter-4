@@ -55,6 +55,8 @@
 
         </div>
 
+        <div id="errorMessage"></div>
+
       </div>
 
 
@@ -104,10 +106,12 @@
         }
 
         if ($("#password").val() != $("#confirm-password").val()) {
-
           errorMessage += "Your passwords do not match."
-
         }
+
+          if (errorMessage != "") {
+            $("#errorMessage").html(errorMessage);
+          }
 
 
       });
