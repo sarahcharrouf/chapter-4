@@ -24,12 +24,17 @@
 
       <div id="draggable">drag me around</div>
 
+      <div id="contain" style="width:400px;height:300px;background-color:yellow;">
+        <p>I'm stuck in the box</p>
+      </div>
+
 
 
       <script type="text/javascript">
 
 
-        $( "#draggable" ).draggable({ axis: "x" });
+
+        $("p").draggable({containment: "#contain" });
 
 
       </script>
