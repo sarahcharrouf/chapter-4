@@ -25,25 +25,26 @@
 
     <body>
 
-      <div id="draggable">
-        <p>drag me around ok</p>
-      </div>
-
-      <div id="droppable">
-        <p>i won't leave this spot noope</p>
+      <div id="accordion">
+        <h2>Hi R U Home?</h2>
+        <p>
+          I'm sorry I had to go to the grocery store.
+        </p>
+        <h2>Hi Did you See my photos?</h2>
+        <p>
+          I did u took nice pictures I like them.
+        </p>
+        <h2>U r really nice</h2>
+        <p>
+          Thankx. I thik ur the colest.
+        </p>
       </div>
 
 
 
       <script type="text/javascript">
 
-      $("#draggable").draggable();
-      $("#droppable").droppable({
-        drop: function (event, ui){
-          $(this)
-          alert("it has been dropped!");
-        }
-      })
+      $("#accordion").accordion();
 
 
 
