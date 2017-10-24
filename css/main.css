@@ -103,26 +103,18 @@ textarea {
    }
 
    #draggable {
-     border: 1px solid darkslategray;
-     height: 200px;
      width: 200px;
-     text-align: center;
-     margin: 50px;
+     height: 200px;
+     background-color: lightpink;
+     margin: 20px;
+
    }
 
-   #contain {
-     width:400px;
-     height:300px;
-     margin: 50px;
-     background-color:lightblue;
-   }
-
-   #resizable {
-     border: 1px solid lavenderblush;
-     height: 200px;
-     width: 200px;
-     background-color: lavender;
-     margin: 50px;
+   #droppable {
+     width: 500px;
+     height: 500px;
+     background-color: lightsteelblue;
+     margin: 20px;
    }
 
 

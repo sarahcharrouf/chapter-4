@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Regular Expressions</title>
+        <title>JQUERY</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,21 +25,26 @@
 
     <body>
 
-      <div id="draggable" class="ui-widget-content">
-        <p>Drag me around</p>
+      <div id="draggable">
+        <p>drag me around ok</p>
       </div>
 
-      <div id="contain"><span>I'm stuck in the box</span></div>
+      <div id="droppable">
+        <p>i won't leave this spot noope</p>
+      </div>
 
-      <div id="resizable"></div>
 
 
       <script type="text/javascript">
 
+      $("#draggable").draggable();
+      $("#droppable").droppable({
+        drop: function (event, ui){
+          $(this)
+          alert("it has been dropped!");
+        }
+      })
 
-      $("#draggable" ).draggable();
-      $("span").draggable({containment: "#contain" });
-      $("#resizable" ).resizable({grid:100});
 
 
       </script>
