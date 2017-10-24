@@ -107,6 +107,22 @@ textarea {
      height: 200px;
      width: 200px;
      text-align: center;
+     margin: 50px;
+   }
+
+   #contain {
+     width:400px;
+     height:300px;
+     margin: 50px;
+     background-color:lightblue;
+   }
+
+   #resizable {
+     border: 1px solid lavenderblush;
+     height: 200px;
+     width: 200px;
+     background-color: lavender;
+     margin: 50px;
    }
 
 

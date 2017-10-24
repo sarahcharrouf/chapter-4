@@ -18,23 +18,28 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script src="js/jquery-ui.js"></script>
 
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
     </head>
 
     <body>
 
-      <div id="draggable">drag me around</div>
-
-      <div id="contain" style="width:400px;height:300px;background-color:yellow;">
-        <span>I'm stuck in the box</span>
+      <div id="draggable" class="ui-widget-content">
+        <p>Drag me around</p>
       </div>
 
+      <div id="contain"><span>I'm stuck in the box</span></div>
+
+      <div id="resizable"></div>
 
 
       <script type="text/javascript">
 
 
-
-        $("span").draggable({containment: "#contain" });
+      $("#draggable" ).draggable();
+      $("span").draggable({containment: "#contain" });
+      $("#resizable" ).resizable();
 
 
       </script>
@@ -48,11 +53,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
     </body>
 </html>
