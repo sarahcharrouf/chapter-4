@@ -1,15 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>JQUERY</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
+        <title>jQuery</title>
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -22,31 +15,37 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
         <style>
-          #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
-          #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
-          #sortable li span { position: absolute; margin-left: -1.3em; }
+
         </style>
 
     </head>
 
     <body>
 
-      <ul id="sortable">
-        <li class="ui-state-default">Item 1</li>
-        <li class="ui-state-default">Item 2</li>
-        <li class="ui-state-default">Item 3</li>
-        <li class="ui-state-default">Item 4</li>
-        <li class="ui-state-default">Item 5</li>
-        <li class="ui-state-default">Item 6</li>
-        <li class="ui-state-default">Item 7</li>
-      </ul>
+      <div id="header">
+
+        <div id="logo">
+
+          CodePlayer
+
+        </div>
+
+        <div id="buttonContainer">
+
+          <div class="toggleButton" id="html">HTML</div>
+          <div class="toggleButton" id="css">CSS</div>
+          <div class="toggleButton" id="javascript">JavaScript</div>
+          <div class="toggleButton" id="output">Output</div>
+
+        </div>
+
+      </div>
+
 
 
 
       <script type="text/javascript">
 
-      $( "#sortable" ).sortable();
-      $( "#sortable" ).disableSelection();
 
 
 
