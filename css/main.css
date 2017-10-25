@@ -108,7 +108,7 @@ textarea {
      width: 100%;
      background-color: aliceblue;
      padding: 5px;
-     
+
    }
 
    #logo {
@@ -127,6 +127,14 @@ textarea {
      display: inline-block;
      border: 2px solid lightsteelblue;
      padding: 4px;
+   }
+
+   .highlighted {
+     background-color: lightskyblue;
+   }
+
+   .active {
+     background-color: steelblue;
    }
 
 

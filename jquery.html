@@ -47,9 +47,14 @@
       <script type="text/javascript">
 
       $(".toggleButton").hover(function () {
-        $(this).css("background-color", "lightskyblue");
+        $(this).addClass("highlighted");
       }, function () {
-        $(this).css("background-color", "aliceblue");
+        $(this).removeClass("highlighted");
+      });
+
+      $(".toggleButton").click(function () {
+        $(this).toggleClass("active");
+        $(this).removeClass("highlighted");
       });
 
 
