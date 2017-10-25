@@ -99,7 +99,34 @@ textarea {
 
    body {
      font-family: helvetica, sans-serif;
-     font-size: 20px;
+     font-size: 18px;
+     padding: 0;
+     margin: 0;
+   }
+
+   #header {
+     width: 100%;
+     background-color: aliceblue;
+     padding: 5px;
+     
+   }
+
+   #logo {
+     float: left;
+     font-weight: bold;
+     font-size: 24px;
+     padding: 4px;
+   }
+
+   #buttonContainer {
+     width: 300px;
+     margin: 0 auto;
+   }
+
+   .toggleButton {
+     display: inline-block;
+     border: 2px solid lightsteelblue;
+     padding: 4px;
    }
 
 
