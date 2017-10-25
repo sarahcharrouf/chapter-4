@@ -41,6 +41,14 @@
 
       </div>
 
+      <div id="bodyContainer">
+
+        <textarea id="htmlPanel" class="panel">Hello World</textarea>
+
+        <iframe id="outputPanel" class="panel"></iframe>
+
+      </div>
+
 
 
 
@@ -56,6 +64,8 @@
         $(this).toggleClass("active");
         $(this).removeClass("highlighted");
       });
+
+      $("textArea").height($(window).height() - $("#header").height() - 15);
 
 
 
