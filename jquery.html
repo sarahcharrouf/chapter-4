@@ -45,6 +45,9 @@
 
         <textarea id="htmlPanel" class="panel">Hello World</textarea>
 
+        <textarea id="cssPanel" class="panel hidden">p { color: green; }</textarea>
+        <textarea id="javascriptPanel" class="panel hidden">Output</textarea>
+
         <iframe id="outputPanel" class="panel"></iframe>
 
       </div>
@@ -63,6 +66,9 @@
       $(".toggleButton").click(function () {
         $(this).toggleClass("active");
         $(this).removeClass("highlighted");
+        var panelID = $(this).attr("id") + "Panel";
+        $("#" + panelID).toggleClass();
+
       });
 
       $(".panel").height($(window).height() - $("#header").height() - 17);

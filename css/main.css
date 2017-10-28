@@ -151,6 +151,10 @@ textarea {
      border: none;
    }
 
+   .hidden {
+     display: none;
+   }
+
 
 
 
