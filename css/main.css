@@ -138,14 +138,14 @@ textarea {
    }
 
    textarea {
-     width: 50%;
      resize: none;
    }
 
    .panel {
      float: left;
-     width: 50%;
    }
+
+
 
 
 
