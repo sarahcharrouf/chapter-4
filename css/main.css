@@ -129,7 +129,7 @@ textarea {
      padding: 4px;
    }
 
-   .highlighted {
+   .highlightedButton {
      background-color: lightskyblue;
    }
 
@@ -145,6 +145,8 @@ textarea {
 
    .panel {
      float: left;
+     width: 50%;
+     border-left: none;
    }
 
    iframe {
